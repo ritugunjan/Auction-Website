@@ -1,5 +1,3 @@
-# Your Project Name
-
 Brief description of your project.
 
 ## Getting Started
@@ -29,3 +27,4 @@ npm run dev
 Follow these steps to create build:
 
 npm run build
+=======
