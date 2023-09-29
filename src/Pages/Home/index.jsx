@@ -8,7 +8,7 @@ const Home = () =>
             <div className='w-[90%] h-[95%] bg-slate-400 grid grid-cols-5'>
                 <div className='col-span-3 h-full grid items-center justify-center text-center'>
                     <div className='text-white'>
-                        <h1 className='text-5xl mb-3 font-bold'>Best place to buy and sell</h1>
+                        <h1 className='text-5xl mb-3 font-bold'>Best Place to Buy and Sell</h1>
                         <p className='text-2xl '>Register to get 1000 credits in your account</p>
                     </div>
                 </div>

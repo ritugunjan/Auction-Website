@@ -20,7 +20,6 @@ async function apiRequest(path, method, data = null, authToken = null)
 
         }
 
-
         const options = {
             method: method,
             headers: {

@@ -3,10 +3,6 @@ import apiRequest from '../../Api';
 import { Navigate, json, useNavigate } from 'react-router-dom';
 import { validateUserData } from '../../Utils/formvalidation';
 
-
-
-
-
 const RegisterUser = () =>
 {
     let [formError, setFormError] = useState({ error: false, message: "" });
@@ -15,9 +11,6 @@ const RegisterUser = () =>
     let name = useRef("");
     let email = useRef("");
     let password = useRef("");
-
-
-
 
     let handleSubmit = async (e) =>
     {

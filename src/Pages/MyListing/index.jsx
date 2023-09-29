@@ -17,9 +17,6 @@ let getAllBids = async (name, callback) =>
 
 }
 
-
-
-
 const MyListing = () =>
 {
     let isUserLoggedIn = useStore((state) => state.isUserLoggedIn);

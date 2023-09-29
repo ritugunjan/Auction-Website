@@ -16,8 +16,6 @@ async function apiFileRequest(path, method, data = null, authToken = null)
             formData.append(key, data[key]);
         });
 
-
-
         const options = {
             method: method,
             headers: {

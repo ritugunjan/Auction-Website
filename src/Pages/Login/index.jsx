@@ -4,10 +4,6 @@ import { Navigate, json, useNavigate } from 'react-router-dom';
 import { validateUserDataForLogin } from '../../Utils/formvalidation';
 import useStore from '../../Store/store';
 
-
-
-
-
 const Login = () =>
 {
     let [formError, setFormError] = useState({ error: false, message: "" });
@@ -16,10 +12,7 @@ const Login = () =>
     let [loading, setLoading] = useState(false);
     let email = useRef("");
     let password = useRef("");
-
-
-
-
+    
     let handleSubmit = async (e) =>
     {
         e.preventDefault();

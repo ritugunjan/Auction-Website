@@ -16,9 +16,6 @@ let getAllBids = async (callback) =>
 
 }
 
-
-
-
 const Products = () =>
 {
     let isUserLoggedIn = useStore((state) => state.isUserLoggedIn);
@@ -39,7 +36,7 @@ const Products = () =>
     return (
         <>
             <div className="mx-auto px-24 py-8">
-                <h2 className="text-2xl font-bold tracking-tight text-gray-900">Uncover Exciting Bidding Opportunities - Your Gateway to Great Deals!</h2>
+                <h2 className="text-2xl font-bold tracking-tight text-gray-900">Uncover Exciting Bidding Opportunities - Your Getaway to Great Deals!</h2>
 
                 <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 

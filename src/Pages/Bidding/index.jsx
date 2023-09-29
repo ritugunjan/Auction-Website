@@ -60,7 +60,7 @@ const Bidding = () =>
                 return
             }
             let { data } = response;
-            setBidInfo({ ...data, "heighestBid": data.bids[data.bids.length - 1]?.amount })
+            setBidInfo({ ...data, "highestBid": data.bids[data.bids.length - 1]?.amount })
         })
 
     }, [])
@@ -80,7 +80,7 @@ const Bidding = () =>
         setBidInfo({
             ...bidInfo,
             '_count': data._count,
-            'heighestBid': creditRef.current.value
+            'highestBid': creditRef.current.value
         })
         window.alert("bidding was success.");
         creditRef.current.value = ""
@@ -126,8 +126,8 @@ const Bidding = () =>
                                         <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{bidInfo._count.bids}</dd>
                                     </div>
                                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                        <dt className="text-sm font-medium leading-6 text-gray-900">Heighest bid</dt>
-                                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{bidInfo.heighestBid} credit</dd>
+                                        <dt className="text-sm font-medium leading-6 text-gray-900">Highest bid</dt>
+                                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{bidInfo.highestBid} credit</dd>
                                     </div>
                                     {
                                         bidInfo.seller.name != window.localStorage.getItem("name") &&
