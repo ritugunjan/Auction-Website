@@ -4,7 +4,7 @@ import Home from "../Pages/Home";
 import Products from "../Pages/Products";
 import RegisterUser from "../Pages/RegisterUser";
 import Login from "../Pages/Login";
-import Bidding from "../Pages/BIdding";
+import Bidding from "../Pages/Bidding";
 import AddBid from "../Pages/Addbid";
 import MyListing from "../Pages/MyListing";
 import AuthRequired from "../Components/AuthRequired";
